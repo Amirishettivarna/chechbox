@@ -1,0 +1,23 @@
+.div{
+    background-color: aquamarine;
+    width:fit-content;
+    height:0px;
+    /* display: flex; */
+    position:absolute;
+    left:-100%;
+    transition: 0.5s ease;
+
+}
+#checkbox:checked+.div{
+    height:140px;
+    left:0%;
+    
+}
+.div>div{
+    padding:5px;
+}
+
+.bi{
+    font-size: 40px;
+}
+
